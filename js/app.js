@@ -41,7 +41,7 @@ async function loadVideo() {
         const maindiv = document.createElement("div");
 
         const images = document.createElement('img');
-        images.src = "../images/icon.png";
+        images.src = "images/icon.png";
         images.className = "w-48 mx-auto";
 
         const text = document.createElement("p");
@@ -96,7 +96,7 @@ if (!allVideos || allVideos.length === 0) {
   const maindiv = document.createElement("div");
 
   const images = document.createElement('img');
-  images.src = "../images/icon.png";
+  images.src = "images/icon.png";
   images.className = "w-48 mx-auto";
 
   const text = document.createElement("p");
